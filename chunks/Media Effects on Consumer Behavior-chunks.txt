@@ -1,0 +1,413 @@
+--- Chunk 1 ---
+--- Page: Media Effects on Consumer Behavior_page1.png ---
+Media Effects on Consumer Behavior
+
+Eric Tomasi, Terrell Brown, Alvin Rodriguez, Ashley Chabot
+
+
+--- Page: Media Effects on Consumer Behavior_page10.png ---
+10
+
+Appendices
+Appendix A
+
+Questions that relate to purchase intent
+I like what I just read about the product(s).
+I would buy this if I happened to see it in a store.
+I would go online to buy this item.
+I would actively seek out this product.
+After reading this, I would buy this product.
+
+Questions that relate to source credibility
+The information about the product(s) I just read about is believable.
+The information about the product(s) I just read about is honest.
+The information about the product(s) I just read about is objective.
+I trust the information in what I just read.
+The source of what I just read is knowledgeable.
+
+Questions that relate to perceived selling intent
+What I just read about this product provided new information.
+What I just read will influence my choice about buying the product(s).
+The intent of this is to sell the product(s).
+The content of what I just read represents the content source's true beliefs about the product.
+What I just read was an attempt to sell me something.
+
+
+--- Page: Media Effects on Consumer Behavior_page11.png ---
+11
+
+Appendix B
+
+Correlations
+
+--- Chunk 2 ---
+--- Page: Media Effects on Consumer Behavior_page11.png ---
+11
+
+Appendix B
+
+Correlations
+
+Correlations
+|             |                     | Credibility | PI    |
+|-------------|---------------------|-------------|-------|
+| Credibility | Pearson Correlation | 1           | .546** |
+|             | Sig. (2-tailed)     |             | .000   |
+|             | N                   | 209         | 209   |
+| PI          | Pearson Correlation | .546**      | 1     |
+|             | Sig. (2-tailed)     | .000       |       |
+|             | N                   | 209         | 209   |
+
+**. Correlation is significant at the 0.01 level (2-tailed).
+
+Appendix C
+
+Correlations
+
+Correlations
+|             |                     | Credibility | SI    |
+|-------------|---------------------|-------------|-------|
+| Credibility | Pearson Correlation | 1           | .517** |
+|             | Sig. (2-tailed)     |             | .000   |
+|             | N                   | 209         | 209   |
+| SI          | Pearson Correlation | .517**      | 1     |
+|             | Sig. (2-tailed)     | .000       |       |
+|             | N                   | 209         | 209   |
+
+**. Correlation is significant at the 0.01 level (2-tailed).
+
+
+--- Page: Media Effects on Consumer Behavior_page12.png ---
+```text
+12
+
+Appendix D
+
+Post Hoc Tests
+
+Multiple Comparisons
+Dependent Variable: Credibility
+Scheffe
+
+--- Chunk 3 ---
+--- Page: Media Effects on Consumer Behavior_page12.png ---
+```text
+12
+
+Appendix D
+
+Post Hoc Tests
+
+Multiple Comparisons
+Dependent Variable: Credibility
+Scheffe
+
+(I) Media  (J) Media   Mean Difference (I-J) Std. Error Sig.  95% Confidence Interval Lower Bound Upper Bound
+1.0  2.0   -5.4250* .9443  .000  -7.753  -3.097
+1.0  3.0   -2.3638  .9761  .055  -4.770  .043
+2.0  1.0   5.4250*  .9443  .000  3.097  7.753
+2.0  3.0   3.0612*  .9085  .004  .821  5.301
+3.0  1.0   2.3638  .9761  .055  -.043  4.770
+3.0  2.0   -3.0612*  .9085  .004  -5.301  -.821
+*. The mean difference is significant at the 0.05 level.
+
+Appendix E
+T-Test
+
+[DataSet1]
+
+Group Statistics
+
+SI Product_Message  N  Mean  Std. Deviation  Std. Error Mean
+1.0  101  25.861  4.8560  .4832
+2.0  108  21.907  5.0669  .4876
+
+Independent Samples Test
+SI   Levene's Test for Equality of Variances    t-test for Equality of Means    95% Confidence Interval of the Difference
+  F  Sig.  t  df  Sig. (2-tailed)  Mean Difference  Std. Error Difference  Lower  Upper
+Equal variances assumed  .040  .842  5.752  207  .000  3.9540  .6874  2.5987  5.3092
+Equal variances not assumed      5.760  206.873  .000  3.9540  .6864  2.6007  5.3073
+```
+
+
+--- Page: Media Effects on Consumer Behavior_page13.png ---
+Appendix F
+
+Multiple Comparisons
+Dependent Variable: Pl
+Scheffe
+
+--- Chunk 4 ---
+--- Page: Media Effects on Consumer Behavior_page13.png ---
+Appendix F
+
+Multiple Comparisons
+Dependent Variable: Pl
+Scheffe
+
+| (I) Media | (J) Media | Mean Difference (I-J) | Std. Error | Sig. | 95% Confidence Interval |
+|---|---|---|---|---|---|
+|   |   |   |   |   | Lower Bound | Upper Bound |
+| 1.0 | 2.0 | -4.3333* | 1.0652 | .000 | -6.960 | -1.707 |
+|   | 3.0 | -1.2058 | 1.1010 | .550 | -3.921 | 1.509 |
+| 2.0 | 1.0 | 4.3333* | 1.0652 | .000 | 1.707 | 6.960 |
+|   | 3.0 | 3.1275* | 1.0248 | .011 | .601 | 5.654 |
+| 3.0 | 1.0 | 1.2058 | 1.1010 | .550 | -1.509 | 3.921 |
+|   | 2.0 | -3.1275* | 1.0248 | .011 | -5.654 | -.601 |
+
+*. The mean difference is significant at the 0.05 level.
+
+13
+
+
+--- Page: Media Effects on Consumer Behavior_page2.png ---
+2
+
+Description of study: This study aims to identify which media is the most effective in driving
+the most sales for a business to business organization. Facebook, emails, and blogs were the
+media tested in a survey across a variety of measures that provided scores for purchase intent,
+selling intent, and source credibility. Results indicate that email messages had the highest
+purchase intent and perceived source credibility and are therefore our recommended form of
+marketing communication.
+
+Research report commissioned by Professor Charles Quigley, Bryant University
+
+Researchers:
+Eric Tomasi
+[Signature]
+
+Terrell Brown
+
+Alvin Rodriguez
+
+Ashley Chabot
+
+Date of submission: April 30, 2015
+Date of Presentation: April 28, 2015
+
+--- Chunk 5 ---
+Researchers:
+Eric Tomasi
+[Signature]
+
+Terrell Brown
+
+Alvin Rodriguez
+
+Ashley Chabot
+
+Date of submission: April 30, 2015
+Date of Presentation: April 28, 2015
+
+
+--- Page: Media Effects on Consumer Behavior_page3.png ---
+3
+
+Table of Contents
+
+--- Chunk 6 ---
+--- Page: Media Effects on Consumer Behavior_page3.png ---
+3
+
+Table of Contents
+
+Executive Summary........................................................................................................................................4
+Research objectives – background................................................................................................................5
+Null and alternative hypotheses................................................................................................................5-6
+Research design..............................................................................................................................................7
+Data errors/analysis........................................................................................................................................7-8
+Responses to key measures...........................................................................................................................8
+Test of hypotheses.........................................................................................................................................8-9
+Conclusion........................................................................................................................................................9
+Appendices...................................................................................................................................................10-13
+
+--- Chunk 7 ---
+--- Page: Media Effects on Consumer Behavior_page4.png ---
+4
+
+Executive Summary
+
+Our overall objective throughout this research experiment was to determine the impact of internet communication on purchase behavior of business to business products. We looked at three particular sources of social internet-based communication. These three forms of media were blogs, Facebook, and e-mail. We also looked into whether the type of product being considered had any effect on these three forms of social communication. Our end goal was to determine what form of media would be the best outlet for our client, a business to business manager, in order to implement marketing strategies.
+
+Our research design included a questionnaire given out to 209 different individuals measuring credibility, purchase intent, and selling intent. There were 5 different forms of the questionnaire measuring either a high or low involvement product as well as a blog, Facebook, or email. It focused on questions such as what types of internet communication do consumers use when seeking out information on potential purchases. It considered what different effects the media forms had on consumers as well as what impacts it may have had on their behavior. Furthermore, it considered what characteristics caused these impacts.
+
+--- Chunk 8 ---
+We created five hypotheses to measure the results of the data collected. Each hypothesis focused on a different topic of analysis. After testing these hypotheses we came to a conclusion on which source of media would be best for our client to use. Our data proved that our assumptions about the different forms of media and their effects were initially incorrect. We believed blogs would have the highest purchase intent, but emails proved to be the superior media. The insights we gained from the data collected gave us a better understanding on what best marketing strategies to use in the internet communication of B2B's industry.
+
+
+--- Page: Media Effects on Consumer Behavior_page5.png ---
+5
+
+Research objectives – background
+
+--- Chunk 9 ---
+--- Page: Media Effects on Consumer Behavior_page5.png ---
+5
+
+Research objectives – background
+
+In trying to determine the impact of internet communication on purchase behavior of
+B2B products, clear objectives aiding in gathering the right information are needed to help our
+client make the best marketing decision possible. One of the main research objectives was
+determining what internet based communication consumers use to gain knowledge on potential
+purchases. The information gathered could be further analyzed to present our client with the
+most successful form of communication after testing frequencies, medians, and means between
+variances. We used three internet based communications to gather our data. Facebook, email,
+and blogs are the variables that were selected to be tested through our research design that was
+distributed to our test market. We chose to examine and determine if there are any differences in
+the effect that these types of communication have on purchase behavior.
+Before developing our hypothesis, we believed that source credibility would not be the
+only variable that will negatively or positively impact how successful different types of internet
+based communications. Our research team believed selling intent would have an impact as well.
+We believe that the information gathered in an attempt to answer these research questions will
+help the marketing manager decide on a suitable source of media for advertising.
+
+Null and alternative hypotheses
+
+--- Chunk 10 ---
+Null and alternative hypotheses
+
+In order to address our research objectives, our research group developed five
+hypotheses. Our first hypothesis attempts to determine the relationship between credibility and
+purchase intent. We believed that when someone thinks something is more credible and
+trustworthy, then they will be more likely to buy.
+
+HA1: Source credibility will correlate positively with purchase
+Hol: Source credibility will not correlate positively with purchase intent
+
+
+--- Page: Media Effects on Consumer Behavior_page6.png ---
+6
+
+Our second hypothesis aims to determine the relationship between perceived selling intent and credibility. We believed that when someone perceives that they are being sold something, they will not think it is a trustworthy source.
+HA2: Perceived selling intent will correlate negatively with credibility
+Ho2: Perceived selling intent will not negatively correlate with credibility
+
+The third alternative hypothesis explores the relationship between the degree of perceived credibility and each specific media platform. The belief is that blogs are seen as the most credible due to a heightened amount of objectivity and expertise in message creation.
+HA3: There is a relationship between perceived credibility and the type of social media platform
+Ho3: There is no relationship between perceived credibility and the type of social media platform
+
+--- Chunk 11 ---
+The fourth hypothesis delves into the relationship between the involvement level of products and perceived selling intent. The belief is that higher involvement products usually require more in depth interaction from the customer, therefore, the selling intent must be heightened to gauge customer interest.
+HA4: There is a significant difference in selling intent between high and low involvement
+Ho4: There is no difference in selling intent between high and low involvement
+
+The fifth hypothesis our team tested explores the media platform's relationship with purchase intent. Similar to hypothesis 3, we think that blogs will have the highest purchase intent due to the time and effort that goes into making a blog post as compared to Facebook or email.
+HA5: Blogs will have the higher purchase intent than Facebook and email
+Ho5: Blogs will not have higher purchase intent than Facebook and email
+
+
+--- Page: Media Effects on Consumer Behavior_page7.png ---
+7
+
+Research design
+
+--- Chunk 12 ---
+--- Page: Media Effects on Consumer Behavior_page7.png ---
+7
+
+Research design
+
+Our data was collected using a questionnaire format as a seven point Likert scale in order
+to collect interval data. In total 209 different individuals took a survey and the results of that
+survey were compiled into an overall database in which we analyzed the results to form our
+conclusions. The questionnaire asked questions determining if the consumer used the product in
+the past, gender of the consumer, and if the product was gender neutral. Furthermore, it equally
+measured source credibility, purchase intent, and selling intent. Each specific topic had a total of
+five different questions. In addition to this, questionnaires varied as to whether they measured a
+high involvement product or a low involvement product.
+
+--- Chunk 13 ---
+The questions asked were intended to measure what types of internet based
+communication do consumers use to acquire information about potential purchases and if there
+are differences in the effect that these types of communication have on purchase behavior. They
+also measured if a particular type of product affected the impact of internet communication on
+purchase behavior and specific types of internet communication. Lastly, it measured whether
+individual characteristics affected the impact of internet communication on purchase behavior.
+This is a casual experiment because we are controlling for extraneous factors but manipulating
+the independent variable, which is media. It uses a true experimental design that is an "after only
+with no control” in which the treatment is given to a certain group. There is no testing bias
+because there is no before group.
+
+Data errors/analysis
+
+Once all of the data was collected properly, all 209 subjects results were stored in an
+excel database and codes were assigned for the responses. For the 7 point Likert scale, the codes
+ranged from 1 to 7 with 1 indicating strongly disagree and 7 indicating strongly agree. Codes
+
+
+--- Page: Media Effects on Consumer Behavior_page8.png ---
+8
+
+--- Chunk 14 ---
+--- Page: Media Effects on Consumer Behavior_page8.png ---
+8
+
+were assigned to the product media, message, and gender as well. As part of the first step in our
+data analysis, our group checked the validity of the data and identified errors. We noted some
+responses were not coded, and had text instead of numbers. We easily corrected and replaced
+these errors, but other errors involving coding were more troublesome. For instance, there were
+two columns that required a coding of 1 or 2, but several responses indicated numbers greater
+than this. We decided not use this data as part of our hypotheses since many responses are
+inaccurate.
+
+Responses to key measures
+
+--- Chunk 15 ---
+Responses to key measures
+
+As part of the next step, we added in a column for purchase intent, selling intent, and
+source credibility into the database. We identified 5 questions that related to each topic of
+interest so that we can compare the means as shown in Appendix A. The answers for each group
+of 5 questions were summed together in the appropriate column. When looking at some figures
+in the database, we can see that 106 males took the survey and there were 103 females. In
+addition, running a few basic averages we found that email is the source that is perceived as the
+most credible and has the highest purchase intent. Blogs on the other hand, are perceived as
+having the highest selling intent. After getting a general idea of the data we were working with,
+we used SPSS to test our hypotheses and allowed us come to sound statistical conclusions.
+
+Test of hypotheses
+
+For our first hypothesis, we tested to see if source credibility will correlate positively
+with purchase intent. To do so, we ran a Pearson correlation test which allowed us to look at the
+r value. Pearson's was used since we are dealing with metric, interval data. Results, in
+Appendix B, indicate a moderate, positive correlation of .546. Using an alpha level of .05, we
+know this is a statistically significant relationship since the Sig value is less than alpha. We
+
+
+--- Page: Media Effects on Consumer Behavior_page9.png ---
+9
+
+--- Chunk 16 ---
+--- Page: Media Effects on Consumer Behavior_page9.png ---
+9
+
+therefore rejected the null hypothesis. Hypothesis 2, when tested in Appendix C, also shows the
+correlation between selling intent and credibility is moderate and positive at significant level
+with an r value of .517. This means we have evidence to accept the null hypothesis. An ANOVA
+and post hoc Scheffe test were used to test hypothesis 3, as seen in Appendix D. Results indicate
+that the mean difference for perceived credibility was higher for emails than for blogs and
+Facebook, and that the relationships were statistically significant. This means we will reject the
+null hypothesis. Using an independent samples T-Test, hypothesis 4 was tested, as shown in
+Appendix E. The test reveals that high involvement products have higher scores for perceived
+selling intent at a significant level, giving us evidence to reject the null hypothesis. Finally,
+hypothesis 5 was tested with an ANOVA and post hoc Scheffe in Appendix F. The mean
+difference for purchase intent was higher for emails than for Facebook and blogs at a significant
+level, meaning we will reject the null hypothesis.
+
+Conclusion
+
+--- Chunk 17 ---
+Conclusion
+
+After determining that email was perceived as having the highest credibility and the
+highest purchase intent, we would recommend that management elect to use email for future
+marketing messages. According to our statistical results, credibility correlates positively with
+purchase intent and email has the highest credibility. Therefore, it is no surprise that email had
+the highest purchase intent. If provided with more time and resources our research group would
+also like to delve into determining the effect that age and gender might play into the purchase
+intent of a customer who was shown information about a product on either a blog, Facebook, or
+email. We would also be interested in determining the relationship between the type of product
+(high involvement/ low involvement) and whether a specific media platform (Facebook, Email
+and Blog) is more effective at selling products than another.
+
