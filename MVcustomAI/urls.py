@@ -1,6 +1,8 @@
 from django.urls import path
-from . import views
+from MVcustomAI.views import chat_view, login_view, logout_view
 
 urlpatterns = [
-    path('', views.chat_view, name='chat'),
+    path('', login_view, name='login'),
+    path('chat/', chat_view, name='chat'),
+    path('logout/', logout_view, name='logout'),
 ]

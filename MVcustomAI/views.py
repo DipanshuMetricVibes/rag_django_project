@@ -1,5 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import JsonResponse
+from django.contrib.auth import authenticate, logout
+from django.views.decorators.csrf import csrf_exempt
 import json
 import os
 import re
@@ -8,6 +10,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from google import genai
 from typing import List, Dict
+from .models import Conversation
+from django.contrib.auth.models import User
 
 # CONFIG
 PROJECT_ID = "metricvibes-1718777660306"
@@ -119,17 +123,50 @@ Remember to maintain conversation continuity with previous exchanges while follo
     except Exception as e:
         return {"error": f"Gemini error: {str(e)}"}
 
+@csrf_exempt
 def chat_view(request):
     if request.method == 'POST':
+        if not request.session.get('username'):
+            return JsonResponse({'error': 'Session expired. Please log in again.'}, status=401)
         try:
             data = json.loads(request.body)
             query = data.get('query')
-            user_name = data.get('user_name', 'default_user')
-            
+            user_name = request.session.get('username')
             result = ask_gemini_rag(user_name, query)
+
+            # Save to DB
+            user = User.objects.get(username=user_name)
+            session_key = request.session.session_key or ''
+            bot_response = result.get('answer', '')
+            Conversation.objects.create(
+                user=user,
+                session_key=session_key,
+                user_message=query,
+                bot_response=bot_response
+            )
+
             return JsonResponse(result)
-            
         except Exception as e:
             return JsonResponse({"error": str(e)})
+    if not request.session.get('username'):
+        return redirect('login')
+    return render(request, 'MVcustomAI/chatbot.html', {'username': request.session['username']})
 
-    return render(request, 'MVcustomAI/index.html')
+def login_view(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        # You can use Django's authentication or your own logic
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            request.session['username'] = username
+            return render(request, 'MVcustomAI/chatbot.html', {'username': username})
+        else:
+            return render(request, 'MVcustomAI/login.html', {'error': 'Invalid credentials'})
+    return render(request, 'MVcustomAI/login.html')
+
+@csrf_exempt
+def logout_view(request):
+    logout(request)
+    request.session.flush()
+    return redirect('login')

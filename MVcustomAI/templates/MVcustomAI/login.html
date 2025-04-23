@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - RAG Chatbot</title>
+    <style>
+        * { margin: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f4f4;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-container {
+            background: #fff;
+            padding: 2.5rem 2rem 2rem 2rem;
+            border-radius: 18px;    
+            box-shadow: 0 2px 16px rgba(0,123,255,0.08), 0 1.5px 8px rgba(0,0,0,0.06);
+            width: 95%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-title {
+            color: #1c1c1c;
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+            letter-spacing: 0.5px;
+        }
+        form{
+            width: 100%;
+            padding-top: 20px;
+        }
+        .login-subtitle{
+            font-size: 14px;
+        }
+        .form-group {
+            width: 100%;
+            margin-bottom: 1.2rem;
+        }
+        label {
+            font-size: 1rem;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 14px;
+            border: none;
+            border-bottom: 2px solid #d8d8d8;
+            font-size: 1rem;
+            box-shadow: 0 2px 8px rgba(0,123,255,0.04);
+            transition: border-color 0.2s, box-shadow 0.2s;
+            outline: none;
+        }
+        {% comment %} input[type="text"]:focus, input[type="password"]:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px #cce1ff;
+        } {% endcomment %}
+        button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #5b5b5b 40%, #1e1e1e 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.08rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 0.5rem;
+            box-shadow: 0 2px 8px rgba(0,123,255,0.04);
+        }
+        button:hover {
+            background: linear-gradient(135deg, #0056b3 40%, #007bff 100%);
+        }
+        .error {
+            color: #e74c3c;
+            background: #fff0f0;
+            border: 1px solid #ffd6d6;
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin-bottom: 1rem;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+        }
+        @media (max-width: 500px) {
+            .login-container {
+                padding: 1.2rem 0.5rem 1.5rem 0.5frem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-title">Login Here</div>
+        <div class="login-subtitle">Metric Vibes AI Chatbot</div>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                {% comment %} <label for="username">Username</label> {% endcomment %}
+                <input type="text" id="username" name="username" required autocomplete="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                {% comment %} <label for="password">Password</label> {% endcomment %}
+                <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="Password">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

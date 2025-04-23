@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn daemon for RAG Django Application
+After=network.target
+
+[Service]
+User=dipanshu_saini
+Group=www-data
+WorkingDirectory=/home/dipanshu_saini/rag_django_project
+ExecStart=/home/dipanshu_saini/rag_django_project/venv/bin/gunicorn --workers 3 --bind unix:/home/dipanshu_saini/rag_django_project/app.sock core.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
